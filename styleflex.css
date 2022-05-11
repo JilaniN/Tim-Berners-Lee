@@ -1,0 +1,113 @@
+body {
+    
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    box-sizing: border-box;
+    margin: auto; 
+    /* flex-grow: 1; */
+    font-family: 'Lato', sans-serif;
+    background-color: #ebebeb;
+    width: 30em;
+}
+    
+.box1 { 
+
+    background-color: #ffffff;
+    color: #686862;
+    margin-top: 5em;  
+    margin-bottom: 3em;
+    
+   
+}
+
+.box1 p {
+
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
+.box2 {
+
+    width: inherit;
+    color: grey;
+    margin-bottom: 3em;
+    height: 200px;
+    background-color: #ffffff;
+
+}
+
+i {
+
+    font-size: 50px;
+}
+
+.box3 {
+    
+    background-color: #ffffff;
+
+}
+
+.space{
+
+    float: left;
+}
+
+.mister {
+
+    float: left;
+}
+
+.alien {
+
+    float: left;
+}
+
+.boxes {
+
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+
+    color: #dd5555 ;
+    font-weight: 900;
+}
+
+.see {
+
+    background-color: #dd5555;
+    background-size: em;
+    color: white; 
+    border-radius: 4px;
+    ;
+
+}
+
+.timy {
+
+    width: 120px;
+    position: relative;
+    top: 10px;
+    border: 3px solid ;
+    border-radius: 50%;
+    border-color: #686862;
+  
+}
+
+
+@media (max-width: 800px) {
+    .box1, .box2, .box3 {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
